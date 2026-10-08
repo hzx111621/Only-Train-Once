@@ -23,6 +23,13 @@ pip install -r requirements.txt
 
 ```
 
+## Dataset Sources
+
+- [Asian Synthetic Face Dataset (ASFD)](https://github.com/Hurrice-star/ASFD)
+- [DF40](https://github.com/YZY-stack/DF40)
+
+Please refer to the dataset repositories for access instructions and usage terms. 
+
 ## Evaluation
 
 Run the scripts from this directory. Dataset paths can be supplied through command-line arguments.
