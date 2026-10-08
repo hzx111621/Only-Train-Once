@@ -1,6 +1,6 @@
 # Only Train Once: Uncertainty-Aware One-Class Learning for Face Authenticity Detection
 
-This repository contains the official implementation of **“Only Train Once: Uncertainty-Aware One-Class Learning for Face Authenticity Detection.”** The paper has been accepted for publication in *IEEE Transactions on Multimedia (TMM)*.
+This repository contains the official implementation of **“Only Train Once: Uncertainty-Aware One-Class Learning for Face Authenticity Detection.”** The paper has been accepted for publication in *IEEE Transactions on Multimedia (TMM) 🎉 🎉 🎉*.
 <img width="830" height="289" alt="image" src="https://github.com/user-attachments/assets/739dc22c-240b-41f0-94d9-e2f5b9c4b6e8" />
 The source code, complete pretrained model, and evaluation configuration used in this release are publicly available. The evaluation scripts report numerical metrics and save results as JSON files.
 
