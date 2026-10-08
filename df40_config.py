@@ -1,0 +1,48 @@
+"""Original DF40 source paths used by both evaluation scripts."""
+
+from pathlib import Path
+
+
+DF40_ROOT = Path(r"F:\DF40")
+DEFAULT_FAKE = {
+    "blendface": "blendface/blendface/cdf/framescollected",
+    "CollabDiff": "CollabDiff/CollabDiff/fake/framescollected",
+    "danet": "danet/cdf/frames/framescollected",
+    "ddim": "ddim/ddim/cdf/Fake_from_Celeb-real/framescollected",
+    "deepfacelab": "deepfacelab/deepfacelab/fake/frames/framescollected",
+    "DiT": "DiT/DiT/cdf/Fake_from_Celeb-real/framescollected",
+    "e4e": "e4e/e4e/e4e/cdf/Celeb-real/inversions/framescollected",
+    "e4s": "e4s/cdf/frames/framescollected",
+    "facedancer": "facedancer/cdf/frames/framescollected",
+    "faceswap": "faceswap/faceswap/cdf/frames/framescollected",
+    "facevid2vid": "facevid2vid/cdf/frames/framescollected",
+    "fomm": "fomm/cdf/frames/framescollected",
+    "fsgan": "fsgan/cdf/frames/framescollected",
+    "heygen": "heygen/heygen_new/fake/frames/framescollected",
+    "hyperreenact": "hyperreenact/cdf/frames/framescollected",
+    "inswap": "inswap/cdf/frames/framescollected",
+    "lia": "lia/cdf/frames/framescollected",
+    "mcnet": "mcnet/cdf/frames/framescollected",
+    "MidJourney": "MidJourney/MidJourney/fake",
+    "mobileswap": "mobileswap/mobileswap/cdf/frames/framescollected",
+    "MRAA": "MRAA/cdf/frames/framescollected",
+    "one_shot_free": "one_shot_free/cdf/frames/framescollected",
+    "pirender": "pirender/cdf/frames/framescollected",
+    "pixart": "pixart/pixart/cdf/Fake_from_Celeb-real/framescollected",
+    "RDDM": "RDDM/RDDM/cdf/Fake_from_Celeb-real/framescollected",
+    "sadtalker": "sadtalker/cdf/frames/framescollected",
+    "sd2.1": "sd2.1/sd2.1/Celeb-DF-v2/Celeb-real/framescollected",
+    "simswap": "simswap/cdf/frames/framescollected",
+    "SiT": "SiT/SiT/cdf/Fake_from_Celeb-real/framescollected",
+    "stargan": "stargan/stargan/fake/fake",
+    "starganv2": "starganv2/starganv2/fake",
+    "styleclip": "styleclip/styleclip/fake",
+    "StyleGAN2": "StyleGAN2/StyleGAN2/cdf/Fake_from_Celeb-real/framescollected",
+    "StyleGAN3": "StyleGAN3/StyleGAN3/cdf/Fake_from_Celeb-real/framescollected",
+    "StyleGANXL": "StyleGANXL/StyleGANXL/cdf/Fake_from_Celeb-real/framescollected",
+    "tpsm": "tpsm/cdf/frames/framescollected",
+    "uniface": "uniface/uniface/cdf/frames/framescollected",
+    "VQGAN": "VQGAN/VQGAN/cdf/Fake_from_Celeb-real/framescollected",
+    "wav2lip": "wav2lip/cdf/frames/framescollected",
+    "whichfaceisreal": "whichfaceisreal/whichfaceisreal/fake",
+}
