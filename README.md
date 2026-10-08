@@ -12,7 +12,7 @@ The source code, complete pretrained model, and evaluation configuration used in
 - `test_df40_mixed.py`: evaluation on the combined DF40 sources.
 - `test_asfd.py`: evaluation on ASFD generators.
 - `test_custom_dataset.py`: evaluation on a user-specified real/synthetic image pair.
-- `models/fadnet.pth`: complete pretrained FADNet checkpoint.
+- `models/fadnet.pth`: complete pretrained FADNet checkpoint ([download weights](https://drive.google.com/file/d/1X28M1-y9cu9VpiiyjIk2SPqYBuoKw8wE/view?usp=sharing)).
 
 ## Requirements
 
