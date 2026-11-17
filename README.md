@@ -43,3 +43,20 @@ python test_custom_dataset.py --real /path/to/real --fake /path/to/synthetic
 ```
 
 Each script accepts `--model`, `--output`, and `--batch-size`. The commercial and DF40 evaluations use the fixed uncertainty threshold `0.6911`. ASFD reproduces the per-dataset threshold search used in the original evaluation by default; pass `--fixed-threshold` to use `0.6911` instead. Results are saved as JSON under `results/` by default.
+## 📝 Citation
+
+If you find this work useful in your research, please consider citing our paper:
+
+```bibtex
+@ARTICLE{11749596,
+  author={Jiang, Qingchao and Hou, Zhenxuan and Zhu, Zhiying and Qian, Zhenxing and Zhang, Xinpeng and Gu, Zaiwang},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Only Train Once: Uncertainty-Aware One-Class Learning for Face Authenticity Detection}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-13},
+  keywords={Modeling;Faces;Forgery;Signal detection;Uncertainty;Training;Deepfakes;Conferences;Accuracy;Detectors;Face Authenticity Detection;Evidential Deep Learning;Deepfake;Synthetic Face Detection},
+  doi={10.1109/TMM.2026.3746713}}
+
+```
